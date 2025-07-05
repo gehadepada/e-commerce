@@ -9,4 +9,5 @@ A basic Java-based e-commerce system built for the Fawry Quantum Internship Chal
   - Subtotal, shipping fees, and balance update
   - Error handling for stock, expiry, and balance
 - Shippable items sent to a `ShippingService` using an interface with `getName()` and `getWeight()
-<img width="602" alt="Screenshot 2025-07-06 020446" src="https://github.com/user-attachments/assets/09c4c3d3-e91a-442e-9e1a-725906322973" />
+<img width="440" alt="Screenshot 2025-07-06 021842" src="https://github.com/user-attachments/assets/00162de3-beb8-45e3-ad4e-dadc7e6aba9c" />
+
