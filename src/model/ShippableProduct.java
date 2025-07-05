@@ -1,3 +1,5 @@
+package model;
+
 public class ShippableProduct extends Product implements Shippable{
     double weightInKg;
     ShippableProduct(String name , double balance , int quantity ,double weightInKg)
