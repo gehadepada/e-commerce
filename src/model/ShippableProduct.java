@@ -1,10 +1,10 @@
 package model;
 
 public class ShippableProduct extends Product implements Shippable{
-    double weightInKg;
-    ShippableProduct(String name , double balance , int quantity ,double weightInKg)
+    private double weightInKg;
+   public ShippableProduct(String name , double price , int quantity ,double weightInKg)
     {
-        super(name , balance ,  quantity);
+        super(name , price ,  quantity);
         this.weightInKg=weightInKg;
     }
 
@@ -15,7 +15,7 @@ public class ShippableProduct extends Product implements Shippable{
 
     @Override
     public String getName() {
-        return name;
+        return super.getName();
     }
 
 
